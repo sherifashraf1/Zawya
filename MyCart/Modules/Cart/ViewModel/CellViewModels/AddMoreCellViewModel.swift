@@ -9,13 +9,7 @@
 import Foundation
 
 class AddMoreCellViewModel: BaseCellViewModel {
-    
-    // MARK: - variables    
-    override var cellIdentifier: String{
-        get {return AddMoreItemsTableViewCell.identifier}
-        set{}
-    }
-    
+        
     // MARK: - actions
     func handleSelectionOfAddMoreItems() {
         NotificationCenter.default.post(name: Notification.Name(ZawyaNotificationName.OpenHomeTabBarItem.rawValue), object: nil, userInfo: nil)

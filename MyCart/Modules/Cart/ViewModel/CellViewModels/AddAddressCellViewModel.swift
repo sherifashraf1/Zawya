@@ -13,12 +13,7 @@ class AddAddressCellViewModel: BaseCellViewModel {
     
     // MARK: - variables
     let addAddressSubject = PublishSubject<AddressViewModel>()
-    
-    override var cellIdentifier: String{
-         get {return AddAddressTableViewCell.identifier}
-         set{}
-     }
-    
+
     // MARK: - action
     func handleAddAddressAction() {
         let viewModel = AddressViewModel()

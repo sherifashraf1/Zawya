@@ -19,12 +19,7 @@ class ProductCellViewModel: BaseCellViewModel{
     var productQuantity: Int?
     var productPrice:Int?
     let removeProductSubject = PublishSubject<ProductCellViewModel>()
-    
-    override var cellIdentifier: String{
-         get {return ProductTableViewCell.identifier}
-         set{}
-     }
-    
+        
     // MARK:- initilization
     init(productModel: ProductModel) {
         self.productModel = productModel

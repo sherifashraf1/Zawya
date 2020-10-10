@@ -14,12 +14,7 @@ class PaymentCellViewModel: BaseCellViewModel {
     // MARK: - variables
     let masterCardRadioButtonPublishSubject = PublishSubject<Void>()
     
-    override var cellIdentifier: String{
-        get {return PaymentTableViewCell.identifier}
-        set{}
-    }
-    
-    // MARK: - action
+    // MARK: - actions
     func handleRadioButtonTapped() {
         masterCardRadioButtonPublishSubject.onNext(())
     }

@@ -11,9 +11,9 @@ import Foundation
 class CopounCellViewModel: BaseCellViewModel {
     
     // MARK: - variables
-    override var cellIdentifier: String{
-        get {return CopounTableViewCell.identifier}
-        set{}
-    }
+//    override var cellIdentifier: String{
+//        get {return CopounTableViewCell.identifier}
+//        set{}
+//    }
     
 }

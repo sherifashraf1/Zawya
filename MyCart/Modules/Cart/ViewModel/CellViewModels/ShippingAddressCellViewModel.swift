@@ -10,9 +10,5 @@ import Foundation
 
 class ShippingAddressCellViewModel: BaseCellViewModel {
     
-    // MARK: - variables
-    override var cellIdentifier: String{
-        get {return ShippingAddressTableViewCell.identifier}
-        set{}
-    }
+    
 }
